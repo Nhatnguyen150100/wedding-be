@@ -17,6 +17,9 @@ const userSchema = new Schema(
       default: false,
       required: true,
     },
+    arrive: {
+      type: String,
+    },
     message: {
       type: String,
       default: "",
